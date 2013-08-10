@@ -1,3 +1,7 @@
+/*
+ * Author: Ori Popowski
+ */
+
 package assignment4;
 
 import java.io.BufferedReader;
