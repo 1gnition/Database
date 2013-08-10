@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS persons (
+		id integer(7),
+		age integer(3),
+		workclass varchar(20),
+		education varchar(15),
+		educationnum integer(3),
+		maritalstatus varchar(25),
+		occupation varchar(20),
+		race varchar(20),
+		sex varchar(10),
+		capitalgain integer(8),
+		capitalloss integer(8),
+		country varchar(30),
+		PRIMARY KEY (id)
+);

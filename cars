@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS cars (
+		id integer(7),
+		manufacturer varchar(20),
+		model varchar(20),
+		prod_year integer(4),
+		PRIMARY KEY (id)
+);

@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS marriage (
+		id_person integer(7),
+		id_relative integer(7),
+		relationship varchar(9),
+		PRIMARY KEY (id_person, id_relative),
+		FOREIGN KEY (id_person) REFERENCES persons (id)
+								ON DELETE CASCADE
+								ON UPDATE CASCADE,
+		FOREIGN KEY (id_relative) REFERENCES persons (id)
+								  ON DELETE CASCADE
+								  ON UPDATE CASCADE
+);
