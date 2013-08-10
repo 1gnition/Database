@@ -28,7 +28,6 @@ public class Main {
 		try {
 			Class.forName("com.mysql.jdbc.Driver"); 
 			this.conn = DriverManager.getConnection(
-//					"jdbc:mysql://localhost:3306/ass4","root", "gatuin"
 					"jdbc:mysql://localhost:3306/dbs131_user7","dbs131_user7", "dbsdbs"
 					
 			);
